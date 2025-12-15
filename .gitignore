@@ -58,3 +58,4 @@ core
 dev-scripts/
 playground/
 riscv/
+*.log

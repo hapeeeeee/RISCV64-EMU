@@ -27,7 +27,7 @@ typedef struct {
     uint16_t e_type;
     uint16_t e_machine;
     uint32_t e_version;
-    uint64_t e_entry;
+    uint64_t e_entry; // 程序的第一条指令的虚拟地址
     uint64_t e_phoff;
     uint64_t e_shoff;
     uint32_t e_flags;
